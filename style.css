@@ -1,0 +1,750 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1280px) {
+    .navbar {
+        top: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #d9d9d9;
+        height: 50px;
+    }
+
+    .crew {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .content {
+        width: 100%;
+        gap: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        margin-left: -36px;
+        margin-bottom: 40px;
+    }
+
+    .left {
+        width: 490px;
+        height: 612px;
+    }
+
+    .luffy {
+        width: 490px;
+        height: 180px;
+        background-color: #FFF4DC;
+        position: relative;
+        border-radius: 20px;
+        margin-left: 16%;
+        display: flex;
+        align-items: center;
+    }
+
+    .luffy h3 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .luffy h6 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .luffy button {
+        position: absolute;
+        top: 60%;
+        width: 240px;
+        height: 37px;
+        border-style: none;
+        border-radius: 15px;
+        color: #ffffff;
+        background-color: #e29a00;
+        margin-top: 10px;
+    }
+
+    .img-luffy {
+        width: 45%;
+    }
+
+    .luffy img {
+        position: absolute;
+        top: -27%;
+    }
+
+    .text-luffy {
+        margin-top: -20%;
+        gap: 5px;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    
+    .left-bottom {
+        width: 490px;
+        height: 392px;
+        margin-top: 40px ;
+        position: relative;
+        display: flex;
+        margin-left: 16%;
+    }
+
+    .left-1 {
+        width: 50%;
+    }
+
+    .left-2 {
+        width: 50%;
+    }
+
+    .zoro {
+        position: relative;
+        display: flex;
+        width: 235px;
+        height: 180px;
+        background: #E1FFDC;
+
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zoro img {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .zoro button {
+        background-color: #7EB782;
+        border-radius: 15px;
+        width: 173px;
+        height: 37px;
+        z-index: 2;
+        border-style: none;
+        color: #ffffff;
+        margin-top: 55%;
+    }
+
+    .nami {
+        display: flex;
+        position: relative;
+        width: 230px;
+        height: 180px;
+        background-color: #ffced7;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .nami button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        color: #ffffff;
+        background-color: #ff5573;
+        width: 173px;
+        height: 37px;
+        margin-top: 55%;
+    }
+
+    .nami img {
+        position: absolute;
+        margin-bottom: 3px;
+    }
+
+    .sanji {
+        width: 230px;
+        height: 392px;
+        background-color: #E2F2FF;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 17px;
+    }
+
+    .sanji button {
+        position: absolute;
+        width: 173px;
+        height: 37px;
+        background-color: #3279AF;
+        border-radius: 15px;
+        border-style: none;
+        color: #ffffff;
+        top: 80%;
+    }
+
+    .sanji h3 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .sanji h6 {
+        font-weight: 400;
+        margin-top: 7px;
+        width: 120px;
+        text-align: center;
+    }
+
+    .sanji img {
+        position: absolute;
+        top: 3%;
+    }
+
+    .right {
+        width: 500px;
+        height: 612px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .right-top {
+        position: relative;
+        width: 500px;
+        height: 392px;
+        background-color: #f4f4f4;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .usopp {
+        background-color: #ffffff;
+        border-radius: 20px;
+        border-color: #d8d6c1;
+        border-style: solid;
+        position: relative;
+        display: flex;
+        width: 423px;
+        height: 96px;
+    }
+
+    .usopp img {
+        width: 18%;
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 15px;
+    }
+
+    .usopp button {
+        width: 149px;
+        height: 22px;
+        border-radius: 10px;
+        background-color: #d8d6c1;
+        border-style: none;
+        color: #ffffff;
+        position: relative;
+        margin-left: 25%;
+        margin-top: 14.1%;
+    }
+
+    .usopp h3 {
+        margin-left: -35%;
+        margin-top: 21px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .chopper {
+        background-color: #ffffff;
+        border-radius: 20px;
+        border-color: #d8d6c1;
+        border-style: solid;
+        position: relative;
+        display: flex;
+        width: 423px;
+        height: 96px;
+    }
+
+    .chopper img {
+        width: 18%;
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 15px;
+    }
+
+    .chopper button {
+        width: 149px;
+        height: 22px;
+        border-radius: 10px;
+        background-color: #d8d6c1;
+        border-style: none;
+        color: #ffffff;
+        position: relative;
+        margin-left: 25%;
+        margin-top: 14.1%;
+    }
+
+    .chopper h3 {
+        margin-left: -35%;
+        margin-top: 21px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .robin {
+        background-color: #ffffff;
+        border-radius: 20px;
+        border-color: #d8d6c1;
+        border-style: solid;
+        position: relative;
+        display: flex;
+        width: 423px;
+        height: 96px;
+    }
+
+    .robin img {
+        width: 18%;
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .robin button {
+        width: 149px;
+        height: 22px;
+        border-radius: 10px;
+        background-color: #d8d6c1;
+        border-style: none;
+        color: #ffffff;
+        position: relative;
+        margin-left: 25%;
+        margin-top: 14.1%;
+    }
+
+    .robin h3 {
+        margin-left: -35%;
+        margin-top: 21px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .right-bottom {
+        width: 500px;
+        height: 180px;
+        background-color: #f4f4f4;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 20px;
+        margin-top: 43px;
+    }
+
+    .brook {
+        width: 235px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 120px;
+    }
+
+    .brook button {
+        width: 100px;
+        height: 55px;
+        background-color: #d8d6c1;
+        border-radius: 10px;
+        border-style: none;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .brook img {
+        position: absolute;
+        top: 40px;
+        margin-left: -120px;
+    }
+
+    .brook h3 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .jinbe {
+        width: 235px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 120px;
+    }
+
+    .jinbe button {
+        width: 100px;
+        height: 55px;
+        background-color: #d8d6c1;
+        border-radius: 10px;
+        border-style: none;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .jinbe img {
+        position: absolute;
+        top: 55px;
+        margin-left: -130px;
+    }
+
+    .jinbe h3 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .crew {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .navbar {
+        position: fixed;
+        height: 40px;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #d9d9d9;
+        z-index: 3;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .luffy {
+        margin-top: 100px;
+        display: flex-end;
+        flex-direction: column;
+        width: 289px;
+        height: 299px;
+        background-color: #fff4dc;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .luffy h3 {
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 8px;
+    }
+
+
+    .luffy h6 {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .luffy button {
+        position: relative;
+        margin-top: 60%;
+        width: 212px;
+        height: 45px;
+        border-style: none;
+        border-radius: 15px;
+        background-color: #e29a00;
+        color: #ffffff;
+    }
+
+    .luffy img {
+    position: absolute;
+    top: -18%;
+    left: 9%;
+    }
+
+    .zoro {
+        position: relative;
+        width: 289px;
+        height: 221px;
+        background-color: #e1ffdc;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    .zoro button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #7eb782;
+        color: #ffffff;
+        margin-top: 50%;
+        z-index: 2;
+    }
+
+    .zoro img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .nami {
+        position: relative;
+        width: 289px;
+        height: 239px;
+        background-color: #ffced7;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+
+    .nami button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #ff5573;
+        color: #ffffff;
+        margin-top: 60%;
+        z-index: 2;
+    }
+
+    .nami img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .sanji {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        width: 289px;
+        height: 299px;
+        background-color: #e2f2ff;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .sanji button {
+        position: relative;
+        margin-top: 60%;
+        width: 212px;
+        height: 45px;
+        border-style: none;
+        border-radius: 15px;
+        background-color: #3279af;
+        color: #ffffff;
+    }
+
+    .sanji img {
+        width: 100%;
+        position: absolute;
+        top: -21%;
+        left: 0%;
+    }
+
+    .sanji h3 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+
+    .sanji h6{
+        width: 180px;
+        font-weight: 500;
+    }
+
+    .usopp {
+        height: 221px;
+        width: 289px;
+        background-color: #e9e8e2;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .usopp button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #cac8b3;
+        color: #ffffff;
+        margin-top: 57%;
+        z-index: 2;
+    }
+
+    .usopp img {
+        position: absolute;
+        width: 80%;
+        z-index: 1;
+        bottom: -7%;
+    }
+
+    .chopper {
+        height: 221px;
+        width: 289px;
+        background-color: #e9e8e2;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .chopper button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #cac8b3;
+        color: #ffffff;
+        margin-top: 57%;
+        z-index: 2;
+    }
+
+    .chopper img {
+        position: absolute;
+        width: 77%;
+        z-index: 1;
+        bottom: -7%;
+    }
+
+    .robin {
+        height: 221px;
+        width: 289px;
+        background-color: #e9e8e2;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .robin button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #cac8b3;
+        color: #ffffff;
+        margin-top: 57%;
+        z-index: 2;
+    }
+
+    .robin img {
+        position: absolute;
+        width: 77%;
+        z-index: 1;
+        bottom: -3%;
+    }
+
+    .brook {
+        height: 221px;
+        width: 289px;
+        background-color: #ffdbc5;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .brook button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #e36415;
+        color: #ffffff;
+        margin-top: 57%;
+        z-index: 2;
+    }
+
+    .brook img {
+        position: absolute;
+        width: 67%;
+        z-index: 1;
+        bottom: -3%;
+    }
+
+    .jinbe {
+        height: 221px;
+        width: 289px;
+        background-color: #8FC5ED;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .jinbe button {
+        position: relative;
+        border-radius: 15px;
+        border-style: none;
+        width: 212px;
+        height: 45px;
+        background-color: #275E87;
+        color: #ffffff;
+        margin-top: 57%;
+        z-index: 2;
+    }
+
+    .jinbe img {
+        position: absolute;
+        width: 80%;
+        z-index: 1;
+        bottom: -3%;
+    }
+
+    .usopp h3,
+    .chopper h3,
+    .robin h3,
+    .brook h3,
+    .jinbe h3 {
+        display: none;
+    }
+}
